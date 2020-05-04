@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>ScoreTab</title>
+	
+</head>
+<body>
+	<h1>Cardash alpha ver 0.0.1.3</h1>
+	<h2>Scores Tabs :</h2>
+	<div id="scortab">
+		
+	</div>
+	<button id="clear">clearTab</button>
+	<a href="index.html"> Go to menu</a>
+
+	<script>
+	var elem = document.getElementById('scortab')
+	var elemClear = document.getElementById('clear')
+	var scortab = localStorage.getItem('Time')
+
+	if (scortab != null && scortab!=undefined ){
+		var re = /[|]/g;
+		
+		var string = scortab;
+		
+		var newString = string.replace(re, "<br>")
+		elem.innerHTML = "<p>"+newString+"</p>";
+
+	}
+	else{
+		elem.innerHTML = "<p> No play !!!! No score !!!</p>";
+	}
+	
+	elemClear.addEventListener('click', onclick)
+
+	function onclick(){
+		localStorage.clear();
+		location.reload();
+
+	}
+
+
+	</script>
+	
+</body>
+</html>

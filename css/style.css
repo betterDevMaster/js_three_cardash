@@ -1,0 +1,38 @@
+#timer{
+	font-family: verdana;
+	position: absolute;
+	top:20px;
+	right:20px;
+	color: black;
+	text-shadow:2px 2px #000000;
+}
+#audio4{
+	position: absolute;
+	top:10px;
+	right:20px;
+	
+}
+#starter{
+	position: absolute;
+	font-size: 80px;
+	top: 8%;
+	left: 45%;
+	color: white;
+	font-family: sans-serif;
+	font-weight: bold;
+
+}
+.help{
+	/*visibility: hidden;*/
+	text-align: center;
+	font-size: 18px;
+	color: black;
+	font-family: verdana;
+	display: block;
+	padding : 40px 10px 40px 10px;
+	background: -moz-linear-gradient(top, rgba(30,87,153,0.8) 0%, rgba(30,87,153,0.92) 11%, rgba(32,97,166,1) 19%, rgba(41,137,216,1) 50%, rgba(30,87,153,1) 80%, rgba(30,87,153,1) 81%, rgba(30,87,153,0.8) 99%, rgba(30,87,153,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(30,87,153,0.8) 0%,rgba(30,87,153,0.92) 11%,rgba(32,97,166,1) 19%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 99%,rgba(30,87,153,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(30,87,153,0.8) 0%,rgba(30,87,153,0.92) 11%,rgba(32,97,166,1) 19%,rgba(41,137,216,1) 50%,rgba(30,87,153,1) 80%,rgba(30,87,153,1) 81%,rgba(30,87,153,0.8) 99%,rgba(30,87,153,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	color : white;
+	
+}

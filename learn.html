@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cardash</title>
+	<link rel="stylesheet" href="css/style.css">
+	<!-- style.min -->
+	<!-- <link rel="stylesheet" href="css/style.min.css"> -->
+	<style>body{margin : 0}</style>
+
+</head>
+<body>
+	<audio id="audio" src="assets/audio/vroom2.mp3" loop  ></audio>
+	<audio id="audio2" src="assets/audio/frein.wav"  ></audio>
+	<audio id="audio3" src="assets/audio/stoped1.mp3" loop  ></audio>
+	<audio id="audio4"   controls  ></audio>
+	<h2 id="timer"></h2>
+
+	<!-- ==================lib=================== -->
+	<script src="bower_components/three.js/build/three.min.js"></script>
+	<script src="js/lib/stats.min.js"></script>
+	<script src="js/lib/OrbitControls.js"></script>
+	<script src="bower_components/cannon.js/build/cannon.min.js"></script>
+	<!-- ==================class============== -->
+	<script src="js/class/Obst.js"></script>
+	<script src="js/class/Road.js"></script>
+	<!-- =================script================= -->
+	<script src="js/function.js"></script>
+	<script src="js/tuto/tuto.app.js"></script>
+	<script src="js/tuto/tuto.webgl.js"></script>
+	<script src="js/tuto/tuto.physic.js"></script>
+	<script src="js/tuto/tuto.map.js"></script>
+	<script src="js/tuto/tuto.player.js"></script>
+	<script src="js/tuto/tuto.gameEngine.js"></script>
+
+
+
+
+	<!-- ==================script.min=================== -->
+<!-- 	<script src="js/lib/three.js/build/three.min.js"></script>
+	<script src="js/lib/stats.min.js"></script>
+	<script src="js/lib/OrbitControls.min.js"></script>
+	<script src="js/lib/cannon.js/build/cannon.min.js"></script>
+
+	<script src="js/class/Obst.min.js"></script>
+	<script src="js/class/Road.min.js"></script>
+
+	<script src="js/function.min.js"></script>
+	<script src="js/tuto/tuto.app.min.js"></script>
+	<script src="js/tuto/tuto.webgl.min.js"></script>
+	<script src="js/tuto/tuto.physic.min.js"></script>
+	<script src="js/tuto/tuto.map.min.js"></script>
+	<script src="js/tuto/tuto.player.min.js"></script>
+	<script src="js/tuto/tuto.gameEngine.min.js"></script>
+	
+	
+	
+
+	<!-- =================start================== -->
+	<script>app.init().start()</script>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "Cardash",
+  "authors": 
+    "'Adam' <'parent.adam@free.fr'>",
+  
+  "description": "car game with threejs",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "three.js": "threejs#*",
+    "cannon.js": "~0.6.2"
+  }
+}
